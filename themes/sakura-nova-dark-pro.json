@@ -53,7 +53,7 @@
     "editorGutter.modifiedBackground": "#1DA0E2",
     "editorGutter.deletedBackground": "#F02E6E",
     "editorOverviewRuler.border": "#00000000",
-    "activityBar.background": "#16112A",
+    "activityBar.background": "#140D1F",
     "activityBar.foreground": "#F8F8F2",
     "activityBar.inactiveForeground": "#F8F8F273",
     "activityBar.activeBorder": "#FF5DA2",
@@ -63,13 +63,13 @@
     "activityBarTop.background": "#0D0B1D",
     "activityBarTop.foreground": "#F8F8F2",
     "activityBarTop.inactiveForeground": "#7F789F",
-    "sideBar.background": "#16112A",
+    "sideBar.background": "#140D1F",
     "sideBar.foreground": "#F8F8F2E6",
     "sideBar.border": "#7F789F33",
     "sideBarTitle.foreground": "#F8F8F2",
     "sideBarSectionHeader.background": "#7F789F1A",
     "sideBarSectionHeader.foreground": "#F8F8F2",
-    "statusBar.background": "#1E1C31",
+    "statusBar.background": "#140D1F",
     "statusBar.foreground": "#F8F8F2",
     "statusBar.border": "#7F789F33",
     "statusBar.noFolderBackground": "#1E1C31",
@@ -78,7 +78,7 @@
     "statusBarItem.hoverBackground": "#FF5DA229",
     "statusBarItem.remoteBackground": "#FF5DA2",
     "statusBarItem.remoteForeground": "#1E1C31",
-    "titleBar.activeBackground": "#1E1C31",
+    "titleBar.activeBackground": "#140D1F",
     "titleBar.activeForeground": "#F8F8F2",
     "titleBar.inactiveBackground": "#100E23",
     "titleBar.inactiveForeground": "#F8F8F28C",
@@ -304,7 +304,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#CFEFFF"
+        "foreground": "#F5C2E7"
       }
     },
     {
@@ -704,7 +704,7 @@
         "punctuation.definition.variable.shell"
       ],
       "settings": {
-        "foreground": "#CFEFFF"
+        "foreground": "#F5C2E7"
       }
     },
     {
@@ -754,7 +754,7 @@
         "punctuation.definition.variable.php"
       ],
       "settings": {
-        "foreground": "#CFEFFF"
+        "foreground": "#F5C2E7"
       }
     },
     {
@@ -864,14 +864,14 @@
       "foreground": "#D4BFFF"
     },
     "parameter": {
-      "foreground": "#CFEFFF",
+      "foreground": "#F5C2E7",
       "fontStyle": "italic"
     },
     "variable": {
-      "foreground": "#CFEFFF"
+      "foreground": "#F5C2E7"
     },
     "property": {
-      "foreground": "#CFEFFF"
+      "foreground": "#F5C2E7"
     },
     "function": {
       "foreground": "#91DDFF"

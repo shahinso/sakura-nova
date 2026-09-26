@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/logo.png" alt="Sakura Nova" width="180" />
+<img src="https://raw.githubusercontent.com/shahinso/sakura-nova/main/images/logo.png" alt="Sakura Nova" width="180" />
 
 # Sakura Nova
 
@@ -9,11 +9,11 @@
 Five hand-tuned variants — four dark, one light — built around a single sakura-pink accent,
 with full semantic highlighting and a matching terminal palette.
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/zsn-Rose.sakura-nova?color=FF5DA2&labelColor=100E23&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=zsn-Rose.sakura-nova)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/zsn-Rose.sakura-nova?color=AD50EC&labelColor=100E23&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=zsn-Rose.sakura-nova)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/zsn-Rose.sakura-nova?color=91DDFF&labelColor=100E23&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=zsn-Rose.sakura-nova)
-[![Rating](https://img.shields.io/visual-studio-marketplace/stars/zsn-Rose.sakura-nova?color=FFB378&labelColor=100E23&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=zsn-Rose.sakura-nova&ssr=false#review-details)
+[![Version](https://img.shields.io/badge/version-0.0.1-FF5DA2?labelColor=100E23&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=zsn-Rose.sakura-nova-new)
+[![Downloads](https://vsmarketplacebadges.dev/downloads/zsn-Rose.sakura-nova-new.svg?style=for-the-badge&colorA=100E23&colorB=91DDFF)](https://marketplace.visualstudio.com/items?itemName=zsn-Rose.sakura-nova-new)
 [![License](https://img.shields.io/badge/license-MIT-A1EFD3?labelColor=100E23&style=for-the-badge)](LICENSE)
+
+<sub>Published on the Marketplace as <b>Sakura Nova New</b> — extension ID <code>zsn-Rose.sakura-nova-new</code>.</sub>
 
 </div>
 
@@ -28,29 +28,31 @@ with full semantic highlighting and a matching terminal palette.
 - [Recommended settings](#recommended-settings)
 - [Customizing](#customizing)
 - [Language coverage](#language-coverage)
-- [Build from source](#build-from-source)
 - [Contributing](#contributing)
+- [Changelog](#changelog)
 - [License](#license)
 
 ---
 
 ## Install
 
-**From the Marketplace** — search `Sakura Nova` in the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`) and hit **Install**.
+**From the Marketplace** — open the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`), search for **Sakura Nova New**, and hit **Install**. A few similarly-named sakura themes exist on the Marketplace, so if you want to be certain, the exact extension ID is `zsn-Rose.sakura-nova-new`.
 
 **From Quick Open** — press `Ctrl+P` / `Cmd+P`, then:
 
 ```
-ext install zsn-Rose.sakura-nova
+ext install zsn-Rose.sakura-nova-new
 ```
 
 **From the CLI:**
 
 ```bash
-code --install-extension zsn-Rose.sakura-nova
+code --install-extension zsn-Rose.sakura-nova-new
 ```
 
 **Then pick a variant** with `Ctrl+K Ctrl+T` / `Cmd+K Cmd+T`, or run **Preferences: Color Theme** from the Command Palette.
+
+> **Requirements** — VS Code `1.77.0` or later. Works out of the box in restricted/untrusted workspaces and virtual workspaces such as vscode.dev and github.dev, since a color theme is just data.
 
 ---
 
@@ -70,27 +72,39 @@ code --install-extension zsn-Rose.sakura-nova
 
 ### Sakura Nova Dark
 
-![Sakura Nova Dark](images/Sakura-Nova-Dark.png)
+![#100E23](https://placehold.co/16x16/100E23/100E23.png) ![#AD50EC](https://placehold.co/16x16/AD50EC/AD50EC.png) ![#A1EFD3](https://placehold.co/16x16/A1EFD3/A1EFD3.png) ![#FFC0CB](https://placehold.co/16x16/FFC0CB/FFC0CB.png) <sub>background · keyword · string · cursor</sub>
+
+![Sakura Nova Dark](https://raw.githubusercontent.com/shahinso/sakura-nova/main/images/Sakura-Nova-Dark.png)
 
 ### Sakura Nova Dark Pro
 
-![Sakura Nova Dark Pro](images/Sakura-Nova-Dark-Pro.png)
+![#100E23](https://placehold.co/16x16/100E23/100E23.png) ![#FF75C3](https://placehold.co/16x16/FF75C3/FF75C3.png) ![#ADE292](https://placehold.co/16x16/ADE292/ADE292.png) ![#FFC0CB](https://placehold.co/16x16/FFC0CB/FFC0CB.png) <sub>background · keyword · string · cursor</sub>
+
+![Sakura Nova Dark Pro](https://raw.githubusercontent.com/shahinso/sakura-nova/main/images/Sakura-Nova-Dark-Pro.png)
 
 ### Sakura Nova Warm
 
-![Sakura Nova Warm](images/Sakura-Nova-Warm.png)
+![#231A2D](https://placehold.co/16x16/231A2D/231A2D.png) ![#FF75C3](https://placehold.co/16x16/FF75C3/FF75C3.png) ![#ADE292](https://placehold.co/16x16/ADE292/ADE292.png) ![#FFC0CB](https://placehold.co/16x16/FFC0CB/FFC0CB.png) <sub>background · keyword · string · cursor</sub>
+
+![Sakura Nova Warm](https://raw.githubusercontent.com/shahinso/sakura-nova/main/images/Sakura-Nova-Warm.png)
 
 ### Sakura Nova Dark Red
 
-![Sakura Nova Dark Red](images/Sakura-Nova-Red.png)
+![#100E23](https://placehold.co/16x16/100E23/100E23.png) ![#F2608F](https://placehold.co/16x16/F2608F/F2608F.png) ![#A1EFD3](https://placehold.co/16x16/A1EFD3/A1EFD3.png) ![#FF5DA2](https://placehold.co/16x16/FF5DA2/FF5DA2.png) <sub>background · keyword · string · cursor</sub>
+
+![Sakura Nova Dark Red](https://raw.githubusercontent.com/shahinso/sakura-nova/main/images/Sakura-Nova-Red.png)
 
 ### Sakura Nova Light
 
-![Sakura Nova Light](images/Sakura-Nova-Light.png)
+![#F8F8F2](https://placehold.co/16x16/F8F8F2/F8F8F2.png) ![#FF00BB](https://placehold.co/16x16/FF00BB/FF00BB.png) ![#40A02B](https://placehold.co/16x16/40A02B/40A02B.png) ![#FF5DA2](https://placehold.co/16x16/FF5DA2/FF5DA2.png) <sub>background · keyword · string · cursor</sub>
+
+![Sakura Nova Light](https://raw.githubusercontent.com/shahinso/sakura-nova/main/images/Sakura-Nova-Light.png)
 
 ---
 
 ## Color palette
+
+Every variant is built from the same underlying palette — only which UI role gets which color changes. Everything below is read directly from the theme JSON, not eyeballed off a screenshot.
 
 ### Brand core
 
@@ -99,15 +113,18 @@ The accent is shared across all five variants, so switching between them never c
 | | Name | Hex | Role |
 | :--- | :--- | :--- | :--- |
 | ![#FF5DA2](https://placehold.co/16x16/FF5DA2/FF5DA2.png) | Sakura | `#FF5DA2` | Primary accent — focus border, badges, active line number, tab indicator |
-| ![#FF75C3](https://placehold.co/16x16/FF75C3/FF75C3.png) | Blossom | `#FF75C3` | Keywords in Pro / Warm |
-| ![#F02E6E](https://placehold.co/16x16/F02E6E/F02E6E.png) | Rose | `#F02E6E` | Errors, deletions, Warm buttons |
-| ![#FFC0CB](https://placehold.co/16x16/FFC0CB/FFC0CB.png) | Petal | `#FFC0CB` | Cursor (dark variants) |
+| ![#FF75C3](https://placehold.co/16x16/FF75C3/FF75C3.png) | Blossom | `#FF75C3` | Keywords & headings in Pro / Warm |
+| ![#F02E6E](https://placehold.co/16x16/F02E6E/F02E6E.png) | Rose | `#F02E6E` | Errors, deleted-file indicator & Warm's buttons |
+| ![#2CE592](https://placehold.co/16x16/2CE592/2CE592.png) | Nova Green | `#2CE592` | Added-file indicator & terminal green (four dark variants) |
+| ![#1DA0E2](https://placehold.co/16x16/1DA0E2/1DA0E2.png) | Comet | `#1DA0E2` | Modified-file indicator & terminal blue (four dark variants) |
+| ![#FFC0CB](https://placehold.co/16x16/FFC0CB/FFC0CB.png) | Petal | `#FFC0CB` | Cursor in Dark, Dark Pro & Warm |
 | ![#AD50EC](https://placehold.co/16x16/AD50EC/AD50EC.png) | Nova Violet | `#AD50EC` | Keywords in Dark |
 | ![#D4BFFF](https://placehold.co/16x16/D4BFFF/D4BFFF.png) | Lavender | `#D4BFFF` | Numbers, constants, types |
 | ![#91DDFF](https://placehold.co/16x16/91DDFF/91DDFF.png) | Nova Blue | `#91DDFF` | Functions |
 | ![#63F2F1](https://placehold.co/16x16/63F2F1/63F2F1.png) | Aqua | `#63F2F1` | Attributes |
 | ![#A1EFD3](https://placehold.co/16x16/A1EFD3/A1EFD3.png) | Mint | `#A1EFD3` | Strings |
-| ![#FFB378](https://placehold.co/16x16/FFB378/FFB378.png) | Amber | `#FFB378` | Warnings, modifications |
+| ![#FFB378](https://placehold.co/16x16/FFB378/FFB378.png) | Amber | `#FFB378` | Terminal yellow; bracket accents in some dark variants |
+| ![#FFE6B3](https://placehold.co/16x16/FFE6B3/FFE6B3.png) | Honey | `#FFE6B3` | Warnings, conflicts & bright terminal yellow (four dark variants) |
 | ![#7F789F](https://placehold.co/16x16/7F789F/7F789F.png) | Dusk | `#7F789F` | Comments, line numbers, muted UI |
 | ![#F8F8F2](https://placehold.co/16x16/F8F8F2/F8F8F2.png) | Moonlight | `#F8F8F2` | Foreground |
 | ![#100E23](https://placehold.co/16x16/100E23/100E23.png) | Midnight | `#100E23` | Editor background |
@@ -210,7 +227,7 @@ Sakura Nova ships semantic highlighting and bracket-pair colors, so both are wor
 }
 ```
 
-> **Note on italics** — comments are italic in every variant, and Dark Red italicizes variables and properties too. If your font has no true italic, pick one that does (JetBrains Mono, Cascadia Code, Fira Code, Victor Mono) or turn italics off in [Customizing](#customizing) below.
+> **Note on italics** — comments are italic in every variant. Dark Red goes further and italicizes variables and properties throughout; Dark Pro and Warm add a subtle italic to semantic parameters only, visible once `editor.semanticHighlighting.enabled` is on as recommended above. If your font has no true italic, pick one that does (JetBrains Mono, Cascadia Code, Fira Code, Victor Mono) or turn italics off in [Customizing](#customizing) below.
 
 ---
 
@@ -258,9 +275,26 @@ Anything not in that list still renders correctly through the base scopes and se
 ---
 
 
+## Contributing
+
+Issues and pull requests are welcome at [shahinso/sakura-nova](https://github.com/shahinso/sakura-nova/issues).
+
+- Formatting follows the repo's [`.editorconfig`](.editorconfig) — 2-space indents, LF line endings, UTF-8, and a final newline. Markdown files are exempt from trailing-whitespace trimming, since a trailing double-space is a valid Markdown line break.
+- Before opening a PR that touches a theme file, run `npm run validate`. It's the same check the release workflow runs, so a label typo or a missing color fails fast either way.
+- New or adjusted token rules should be checked against the languages in [Language coverage](#language-coverage). If a language you use looks off, open an issue instead of guessing at a scope.
+- Screenshots in [Preview](#preview) are taken from the same **Extension: Preview Sakura Nova** Extension Development Host — keep new ones at a similar window size and zoom level so the set stays consistent.
+
+---
+
+## Changelog
+
+All notable changes are recorded in [CHANGELOG.md](CHANGELOG.md), which follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+---
+
 ## License
 
-[MIT](LICENSE) © [zsn](https://github.com/zsn-Rose)
+[MIT](LICENSE) © [zso](https://github.com/shahinso)
 
 <div align="center">
 

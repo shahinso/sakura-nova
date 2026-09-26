@@ -2,7 +2,7 @@
   "name": "sakura-nova-new",
   "displayName": "Sakura Nova New",
   "description": "A cosmic cherry-blossom theme for VS Code — five hand-tuned variants (Dark, Dark Pro, Warm, Dark Red and Light) with full semantic highlighting and a matching terminal palette.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "zsn-Rose",
   "author": {
     "name": "zsn"
