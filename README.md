@@ -112,8 +112,8 @@ The accent is shared across all five variants, so switching between them never c
 
 | | Name | Hex | Role |
 | :--- | :--- | :--- | :--- |
-| ![#FF5DA2](https://placehold.co/16x16/FF5DA2/FF5DA2.png) | Sakura | `#FF5DA2` | Primary accent — focus border, badges, active line number, tab indicator |
 | ![#FF75C3](https://placehold.co/16x16/FF75C3/FF75C3.png) | Blossom | `#FF75C3` | Keywords & headings in Pro / Warm |
+| ![#FF5DA2](https://placehold.co/16x16/FF5DA2/FF5DA2.png) | Sakura | `#FF5DA2` | focus border, badges, active line number, tab indicator |
 | ![#F02E6E](https://placehold.co/16x16/F02E6E/F02E6E.png) | Rose | `#F02E6E` | Errors, deleted-file indicator & Warm's buttons |
 | ![#2CE592](https://placehold.co/16x16/2CE592/2CE592.png) | Nova Green | `#2CE592` | Added-file indicator & terminal green (four dark variants) |
 | ![#1DA0E2](https://placehold.co/16x16/1DA0E2/1DA0E2.png) | Comet | `#1DA0E2` | Modified-file indicator & terminal blue (four dark variants) |
